@@ -1,0 +1,31 @@
+.form-control{
+  width:500px;
+}
+
+.form-control input
+{
+  width:100%;
+  color: #333;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 230px;
+  padding: 15px 20px;
+  border-radius: 2px;
+  border: 1px solid black;
+  background: #fff;
+}
+
+
+
+.form-control .btn{
+margin-top: 20px;
+width: 543px;
+margin-left: 230px;
+}
+
+ .error{
+  margin-left: 230px;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Cairo', sans-serif;
+}

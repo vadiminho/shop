@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+
+
+*{
+  padding:0;
+  margin:0;
+  outline:none;
+}
+
+body{
+  font-size: 14px;
+  font-family: 'Cairo', sans-serif;
+  color:#333;
+  font-weight: 400;
+  background: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+a{
+  color: #fff;
+  text-decoration:none;
+  transition: all 600ms ease;
+}
+
+a:hover{
+  color: #8bddff;
+  transition: all 600ms ease;
+}
+
+.container {
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 70%;
+}
+
+header >.top-menu {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: #fff;
+  background: #000000;
+}
+
+header > .top-menu > .nav a {
+  color:#fff;
+  margin-right:10px;
+}
+
+header >.top-menu >.nav a:hover{
+  color:#757575;
+}
+
+header> .top-menu > .nav a:not(:last-of-type):after{
+  content:"|";
+  margin-left: 10px;
+  color:#fff;
+}
+
+header >.middle {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header >.middle >.logo img {
+  width:150px;
+  float: left;
+  margin-right: 20px;
+}
+
+header >.middle >.logo span {
+  float:left;
+  display: block;
+  width:250px;
+  margin-top:30px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.btn {
+  width:130px;
+  height:40px;
+  background:#000000;
+  border-radius:5px;
+  border:0;
+  font-size: 14px;
+  margin-left: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 600ms ease;
+}
+
+header .btn.auth{
+  width:100px;
+  background:#000000;
+}
+
+
+
+header .btn.basket{
+  width: 95%;
+  background: #fff;
+  color:  #000000;
+  margin-bottom: 10px;
+  border:1px solid #333;
+}
+
+header .btn.dashboard{
+  width:250px;
+  background:#000000;
+}
+
+header .btn:hover{
+  transition: all 600ms ease;
+}
+
+
+header >.menu > ul {
+  background: #fafafa;
+  border:1px solid black;
+  border-radius: 5px;
+  padding: 10px 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header >.menu > ul >li {
+  width: 20%;
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+}
+
+header >.menu > ul >li a {
+  color: #000000;
+}
+
+header >.menu > ul >li a:hover {
+  color:#757575;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #000000;
+  color: #fff;
+  margin-top: 150px;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer >.social i{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+  margin-left: 5px;
+  cursor: pointer;
+  color: #333;
+  transition: all 600ms ease;
+}
+
+.main {
+  margin-top: 50px;
+}
+
+.main >.products{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.main >.products >.product{
+margin-right: 5%;
+height: 480px;
+background: #fff;
+width: 30%;
+margin-top: 50px;
+
+}
+
+.main >.products >.product:nth-child(3n){
+margin-right: 0;
+}
+
+.main >.products >.product .image{
+height: 100px;
+width: 100%;
+margin:10px;
+}
+
+.main >.products >.product h3 {
+  align-items: center;
+  margin: 10px;
+}
+
+.main >.products >.product p {
+  align-items: center;
+  margin: 10px;
+}
+
+
+
+.main >.products >.product .btn{
+margin: 2px;
+width: 100%;
+}
